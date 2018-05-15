@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="task" label="Registro de Atendimento" max_length="40" name="x_177883_cs_regist_registro_de_atendimento" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Telefone" max_length="40" name="phone" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Resumo" max_length="40" name="u_abstract" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" dependent="u_type_activity" dependent_on_field="u_type_activity" label="Especificação da atividade" max_length="40" name="u_activity_specification" type="string" use_dependent_field="true">
+            <choice>
+                <element dependent_value="pedido" label="Analise de pedido" sequence="0" value="Analise de pedido"/>
+                <element dependent_value="entrega" label="Atraso na entrega" sequence="0" value="Atraso na entrega"/>
+                <element dependent_value="occurrence" label="CRM Dynamics" sequence="0" value="CRM Dynamics"/>
+                <element dependent_value="ocorrência" label="CRM Dynamics" sequence="0" value="CRM Dynamics"/>
+                <element dependent_value="deliver" label="Delivery delay" sequence="0" value="Delivery delay"/>
+                <element dependent_value="order" label="Order Analysis" sequence="0" value="Order Analysis"/>
+                <element dependent_value="collect" label="Recall" sequence="0" value="Recall"/>
+                <element dependent_value="coleta" label="Recall" sequence="0" value="Recall"/>
+                <element dependent_value="entrega" label="Alteração de entrega" sequence="1" value="Alteração de entrega"/>
+                <element dependent_value="deliver" label="Change of delivery" sequence="1" value="Change of delivery"/>
+                <element dependent_value="order" label="Portal Issues" sequence="1" value="Portal Issues"/>
+                <element dependent_value="pedido" label="Problemas portal" sequence="1" value="Problemas portal"/>
+                <element dependent_value="pedido" label="Encaixe" sequence="2" value="Encaixe"/>
+                <element dependent_value="order" label="Fitting" sequence="2" value="Fitting"/>
+                <element dependent_value="deliver" label="Vehicle withheld at the tax office" sequence="2" value="Vehicle withheld at the tax office"/>
+                <element dependent_value="entrega" label="Veículo retido no posto fiscal" sequence="2" value="Veículo retido no posto fiscal"/>
+                <element dependent_value="order" label="Action Campaign" sequence="3" value="Action Campaign"/>
+                <element dependent_value="entrega" label="Alteração de janela" sequence="3" value="Alteração de janela"/>
+                <element dependent_value="pedido" label="Perda grade" sequence="3" value="Perda grade"/>
+                <element dependent_value="deliver" label="Window change" sequence="3" value="Window change"/>
+                <element dependent_value="pedido" label="Ação Campanha" sequence="4" value="Ação Campanha"/>
+                <element dependent_value="order" label="Insert alert / Grid term" sequence="4" value="Insert alert / Grid term"/>
+                <element dependent_value="entrega" label="Problemas na entrega" sequence="4" value="Problemas na entrega"/>
+                <element dependent_value="deliver" label="Problems with delivery" sequence="4" value="Problems with delivery"/>
+                <element dependent_value="pedido" label="Alerta inserção/Prazo Grade" sequence="5" value="Alerta inserção/Prazo Grade"/>
+                <element dependent_value="entrega" label="Imprevisto (Trânsito)" sequence="5" value="Imprevisto (Trânsito)"/>
+                <element dependent_value="order" label="No inclusion (reason)" sequence="5" value="No inclusion (reason)"/>
+                <element dependent_value="deliver" label="Unforeseen (Traffic)" sequence="5" value="Unforeseen (Traffic)"/>
+                <element dependent_value="pedido" label="Não inclusão (motivo)" sequence="6" value="Não inclusão (motivo)"/>
+                <element dependent_value="entrega" label="Pós Entrega" sequence="6" value="Pós Entrega"/>
+                <element dependent_value="deliver" label="Post Delivery" sequence="6" value="Post Delivery"/>
+                <element dependent_value="deliver" label="Delivery position" sequence="7" value="Delivery position"/>
+                <element dependent_value="entrega" label="Posição de entrega" sequence="7" value="Posição de entrega"/>
+                <element dependent_value="entrega" label="Recall" sequence="8" value="Recall"/>
+                <element dependent_value="deliver" label="Recall" sequence="8" value="Recall"/>
+                <element dependent_value="entrega" label="CRM Dynamics" sequence="9" value="CRM Dynamics"/>
+                <element dependent_value="deliver" label="CRM Dynamics" sequence="9" value="CRM Dynamics"/>
+                <element dependent_value="entrega" label="Analise de pedido" sequence="10" value="Analise de pedido"/>
+                <element dependent_value="deliver" label="Order analysis" sequence="10" value="Order analysis"/>
+                <element dependent_value="deliver" label="Portal Issues" sequence="11" value="Portal Issues"/>
+                <element dependent_value="entrega" label="Problemas portal" sequence="11" value="Problemas portal"/>
+                <element dependent_value="entrega" label="Encaixe" sequence="12" value="Encaixe"/>
+                <element dependent_value="deliver" label="Fitting" sequence="12" value="Fitting"/>
+                <element dependent_value="deliver" label="Loss grade" sequence="13" value="Loss grade"/>
+                <element dependent_value="entrega" label="Perda grade" sequence="13" value="Perda grade"/>
+                <element dependent_value="entrega" label="Ação Campanha" sequence="14" value="Ação Campanha"/>
+                <element dependent_value="deliver" label="Action Campaign" sequence="14" value="Action Campaign"/>
+                <element dependent_value="entrega" label="Alerta inserção/Prazo Grade" sequence="15" value="Alerta inserção/Prazo Grade"/>
+                <element dependent_value="deliver" label="Insert alert / Grid term" sequence="15" value="Insert alert / Grid term"/>
+                <element dependent_value="entrega" label="Não inclusão (motivo)" sequence="16" value="Não inclusão (motivo)"/>
+                <element dependent_value="deliver" label="No inclusion (reason)" sequence="16" value="No inclusion (reason)"/>
+                <element dependent_value="entrega" label="Confirmação de Cadastro" sequence="17" value="Confirmação de Cadastro"/>
+                <element dependent_value="deliver" label="Registration Confirmation" sequence="17" value="Registration Confirmation"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" dependent="u_choice_2" dependent_on_field="u_choice_2" label="Department" max_length="40" name="u_choice_2" type="string" use_dependent_field="true">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Effective Contact" max_length="40" name="u_effective_contact" reference="sys_user" type="string"/>
+        <element label="Franqueado" max_length="32" name="u_franchisees" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Franchisees" max_length="40" name="u_franchisees_1" type="string">
+            <choice/>
+        </element>
+        <element label="Date/Time" max_length="40" name="u_glide_date_time_1" type="glide_date_time"/>
+        <element label="Quantidades de Ligações" max_length="40" name="u_number_connections" type="integer"/>
+        <element label="Contato efetivo" max_length="32" name="u_reference_12" reference="sys_user" type="reference"/>
+        <element label="Departamento" max_length="32" name="u_reference_6" reference="cmn_department" type="reference"/>
+        <element label="Nome da loja" max_length="32" name="u_store_name" reference="cmdb_ci_appl_dot_net" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Tipo de atividade" max_length="40" name="u_type_activity" type="string">
+            <choice>
+                <element label="Entrega" sequence="0" value="entrega"/>
+                <element label="Coleta" sequence="1" value="coleta"/>
+                <element label="Ocorrência" sequence="2" value="ocorrência"/>
+                <element label="Pedido" sequence="3" value="pedido"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Tipo de ligação" max_length="40" name="u_type_connection" type="string">
+            <choice>
+                <element label="Recebida" sequence="0" value="recebida"/>
+                <element label="Efetuada" sequence="1" value="efetuada"/>
+            </choice>
+        </element>
+    </element>
+</database>

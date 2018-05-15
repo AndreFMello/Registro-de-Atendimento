@@ -1,0 +1,1028 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_activity_specification" table="x_177883_cs_regist_registro_de_atendimento" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>pedido</dependent_value>
+            <element>u_activity_specification</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Analise de pedido</label>
+            <language>en</language>
+            <name>x_177883_cs_regist_registro_de_atendimento</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-15 19:03:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ba04dad6378a130010c2d02783990ee5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-15 19:03:43</sys_updated_on>
+            <value>Analise de pedido</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>entrega</dependent_value>
+            <element>u_activity_specification</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Atraso na entrega</label>
+            <language>en</language>
+            <name>x_177883_cs_regist_registro_de_atendimento</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-15 19:01:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4a739ad2378a130010c2d02783990ee5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-15 19:01:12</sys_updated_on>
+            <value>Atraso na entrega</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>occurrence</dependent_value>
+            <element>u_activity_specification</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>CRM Dynamics</label>
+            <language>en</language>
+            <name>x_177883_cs_regist_registro_de_atendimento</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-15 17:57:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>27e48a9e374a130010c2d02783990e04</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-15 17:57:41</sys_updated_on>
+            <value>CRM Dynamics</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>ocorrência</dependent_value>
+            <element>u_activity_specification</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>CRM Dynamics</label>
+            <language>en</language>
+            <name>x_177883_cs_regist_registro_de_atendimento</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-15 19:02:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>84c3dad2378a130010c2d02783990ee3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-15 19:02:26</sys_updated_on>
+            <value>CRM Dynamics</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>deliver</dependent_value>
+            <element>u_activity_specification</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Delivery delay</label>
+            <language>en</language>
+            <name>x_177883_cs_regist_registro_de_atendimento</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-15 17:54:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c0440a9e374a130010c2d02783990eae</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-15 17:54:43</sys_updated_on>
+            <value>Delivery delay</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>order</dependent_value>
+            <element>u_activity_specification</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Order Analysis</label>
+            <language>en</language>
+            <name>x_177883_cs_regist_registro_de_atendimento</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-15 18:01:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>89b586de374a130010c2d02783990e16</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-15 18:01:04</sys_updated_on>
+            <value>Order Analysis</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>collect</dependent_value>
+            <element>u_activity_specification</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Recall</label>
+            <language>en</language>
+            <name>x_177883_cs_regist_registro_de_atendimento</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-15 17:57:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>31c48a9e374a130010c2d02783990e7e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-15 17:57:01</sys_updated_on>
+            <value>Recall</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>coleta</dependent_value>
+            <element>u_activity_specification</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Recall</label>
+            <language>en</language>
+            <name>x_177883_cs_regist_registro_de_atendimento</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-15 19:01:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8d93d6d6378a130010c2d02783990e5c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-15 19:01:41</sys_updated_on>
+            <value>Recall</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>entrega</dependent_value>
+            <element>u_activity_specification</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Alteração de entrega</label>
+            <language>en</language>
+            <name>x_177883_cs_regist_registro_de_atendimento</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-15 19:01:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>86739ad2378a130010c2d02783990ee7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-15 19:01:12</sys_updated_on>
+            <value>Alteração de entrega</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>deliver</dependent_value>
+            <element>u_activity_specification</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Change of delivery</label>
+            <language>en</language>
+            <name>x_177883_cs_regist_registro_de_atendimento</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-15 17:54:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c0440a9e374a130010c2d02783990eb0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-15 17:54:43</sys_updated_on>
+            <value>Change of delivery</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>order</dependent_value>
+            <element>u_activity_specification</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Portal Issues</label>
+            <language>en</language>
+            <name>x_177883_cs_regist_registro_de_atendimento</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-15 18:01:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c5b586de374a130010c2d02783990e18</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-15 18:01:04</sys_updated_on>
+            <value>Portal Issues</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>pedido</dependent_value>
+            <element>u_activity_specification</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Problemas portal</label>
+            <language>en</language>
+            <name>x_177883_cs_regist_registro_de_atendimento</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-15 19:03:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f604dad6378a130010c2d02783990ee7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-15 19:03:43</sys_updated_on>
+            <value>Problemas portal</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>pedido</dependent_value>
+            <element>u_activity_specification</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Encaixe</label>
+            <language>en</language>
+            <name>x_177883_cs_regist_registro_de_atendimento</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-15 19:03:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f204dad6378a130010c2d02783990ee9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-15 19:03:43</sys_updated_on>
+            <value>Encaixe</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>order</dependent_value>
+            <element>u_activity_specification</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Fitting</label>
+            <language>en</language>
+            <name>x_177883_cs_regist_registro_de_atendimento</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-15 18:01:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c1b586de374a130010c2d02783990e1a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-15 18:01:04</sys_updated_on>
+            <value>Fitting</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>deliver</dependent_value>
+            <element>u_activity_specification</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Vehicle withheld at the tax office</label>
+            <language>en</language>
+            <name>x_177883_cs_regist_registro_de_atendimento</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-15 17:54:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cc440a9e374a130010c2d02783990eb1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-15 17:54:43</sys_updated_on>
+            <value>Vehicle withheld at the tax office</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>entrega</dependent_value>
+            <element>u_activity_specification</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Veículo retido no posto fiscal</label>
+            <language>en</language>
+            <name>x_177883_cs_regist_registro_de_atendimento</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-15 19:01:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>82739ad2378a130010c2d02783990ee9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-15 19:01:12</sys_updated_on>
+            <value>Veículo retido no posto fiscal</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>order</dependent_value>
+            <element>u_activity_specification</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Action Campaign</label>
+            <language>en</language>
+            <name>x_177883_cs_regist_registro_de_atendimento</name>
+            <sequence>3</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-15 18:01:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cdb586de374a130010c2d02783990e1b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-15 18:01:04</sys_updated_on>
+            <value>Action Campaign</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>entrega</dependent_value>
+            <element>u_activity_specification</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Alteração de janela</label>
+            <language>en</language>
+            <name>x_177883_cs_regist_registro_de_atendimento</name>
+            <sequence>3</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-15 19:01:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8e739ad2378a130010c2d02783990eea</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-15 19:01:12</sys_updated_on>
+            <value>Alteração de janela</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>pedido</dependent_value>
+            <element>u_activity_specification</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Perda grade</label>
+            <language>en</language>
+            <name>x_177883_cs_regist_registro_de_atendimento</name>
+            <sequence>3</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-15 19:03:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fe04dad6378a130010c2d02783990eea</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-15 19:03:43</sys_updated_on>
+            <value>Perda grade</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>deliver</dependent_value>
+            <element>u_activity_specification</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Window change</label>
+            <language>en</language>
+            <name>x_177883_cs_regist_registro_de_atendimento</name>
+            <sequence>3</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-15 17:54:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c8440a9e374a130010c2d02783990eb3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-15 17:54:43</sys_updated_on>
+            <value>Window change</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>pedido</dependent_value>
+            <element>u_activity_specification</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Ação Campanha</label>
+            <language>en</language>
+            <name>x_177883_cs_regist_registro_de_atendimento</name>
+            <sequence>4</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-15 19:03:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fa04dad6378a130010c2d02783990eec</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-15 19:03:43</sys_updated_on>
+            <value>Ação Campanha</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>order</dependent_value>
+            <element>u_activity_specification</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Insert alert / Grid term</label>
+            <language>en</language>
+            <name>x_177883_cs_regist_registro_de_atendimento</name>
+            <sequence>4</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-15 18:01:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c9b586de374a130010c2d02783990e1d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-15 18:01:04</sys_updated_on>
+            <value>Insert alert / Grid term</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>entrega</dependent_value>
+            <element>u_activity_specification</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Problemas na entrega</label>
+            <language>en</language>
+            <name>x_177883_cs_regist_registro_de_atendimento</name>
+            <sequence>4</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-15 19:01:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8673dad6378a130010c2d02783990ea3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-15 19:01:12</sys_updated_on>
+            <value>Problemas na entrega</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>deliver</dependent_value>
+            <element>u_activity_specification</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Problems with delivery</label>
+            <language>en</language>
+            <name>x_177883_cs_regist_registro_de_atendimento</name>
+            <sequence>4</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-15 17:54:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c4440a9e374a130010c2d02783990eb5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-15 17:54:43</sys_updated_on>
+            <value>Problems with delivery</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>pedido</dependent_value>
+            <element>u_activity_specification</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Alerta inserção/Prazo Grade</label>
+            <language>en</language>
+            <name>x_177883_cs_regist_registro_de_atendimento</name>
+            <sequence>5</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-15 19:03:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b204521a378a130010c2d02783990e3a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-15 19:03:43</sys_updated_on>
+            <value>Alerta inserção/Prazo Grade</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>entrega</dependent_value>
+            <element>u_activity_specification</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Imprevisto (Trânsito)</label>
+            <language>en</language>
+            <name>x_177883_cs_regist_registro_de_atendimento</name>
+            <sequence>5</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-15 19:01:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8273dad6378a130010c2d02783990ea5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-15 19:01:12</sys_updated_on>
+            <value>Imprevisto (Trânsito)</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>order</dependent_value>
+            <element>u_activity_specification</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>No inclusion (reason)</label>
+            <language>en</language>
+            <name>x_177883_cs_regist_registro_de_atendimento</name>
+            <sequence>5</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-15 18:01:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c5b586de374a130010c2d02783990e1f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-15 18:01:04</sys_updated_on>
+            <value>No inclusion (reason)</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>deliver</dependent_value>
+            <element>u_activity_specification</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Unforeseen (Traffic)</label>
+            <language>en</language>
+            <name>x_177883_cs_regist_registro_de_atendimento</name>
+            <sequence>5</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-15 17:54:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c04442de374a130010c2d02783990e44</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-15 17:54:43</sys_updated_on>
+            <value>Unforeseen (Traffic)</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>pedido</dependent_value>
+            <element>u_activity_specification</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Não inclusão (motivo)</label>
+            <language>en</language>
+            <name>x_177883_cs_regist_registro_de_atendimento</name>
+            <sequence>6</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-15 19:03:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>be04521a378a130010c2d02783990e3b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-15 19:03:43</sys_updated_on>
+            <value>Não inclusão (motivo)</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>entrega</dependent_value>
+            <element>u_activity_specification</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Pós Entrega</label>
+            <language>en</language>
+            <name>x_177883_cs_regist_registro_de_atendimento</name>
+            <sequence>6</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-15 19:01:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8e73dad6378a130010c2d02783990ea6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-15 19:01:12</sys_updated_on>
+            <value>Pós Entrega</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>deliver</dependent_value>
+            <element>u_activity_specification</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Post Delivery</label>
+            <language>en</language>
+            <name>x_177883_cs_regist_registro_de_atendimento</name>
+            <sequence>6</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-15 17:54:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cc4442de374a130010c2d02783990e45</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-15 17:54:43</sys_updated_on>
+            <value>Post Delivery</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>deliver</dependent_value>
+            <element>u_activity_specification</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Delivery position</label>
+            <language>en</language>
+            <name>x_177883_cs_regist_registro_de_atendimento</name>
+            <sequence>7</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-15 17:54:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c84442de374a130010c2d02783990e47</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-15 17:54:43</sys_updated_on>
+            <value>Delivery position</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>entrega</dependent_value>
+            <element>u_activity_specification</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Posição de entrega</label>
+            <language>en</language>
+            <name>x_177883_cs_regist_registro_de_atendimento</name>
+            <sequence>7</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-15 19:01:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8a73dad6378a130010c2d02783990ea8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-15 19:01:12</sys_updated_on>
+            <value>Posição de entrega</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>entrega</dependent_value>
+            <element>u_activity_specification</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Recall</label>
+            <language>en</language>
+            <name>x_177883_cs_regist_registro_de_atendimento</name>
+            <sequence>8</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-15 19:01:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8673dad6378a130010c2d02783990eaa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-15 19:01:12</sys_updated_on>
+            <value>Recall</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>deliver</dependent_value>
+            <element>u_activity_specification</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Recall</label>
+            <language>en</language>
+            <name>x_177883_cs_regist_registro_de_atendimento</name>
+            <sequence>8</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-15 17:54:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c44442de374a130010c2d02783990e49</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-15 17:54:43</sys_updated_on>
+            <value>Recall</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>entrega</dependent_value>
+            <element>u_activity_specification</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>CRM Dynamics</label>
+            <language>en</language>
+            <name>x_177883_cs_regist_registro_de_atendimento</name>
+            <sequence>9</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-15 19:01:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8273dad6378a130010c2d02783990eac</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-15 19:01:12</sys_updated_on>
+            <value>CRM Dynamics</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>deliver</dependent_value>
+            <element>u_activity_specification</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>CRM Dynamics</label>
+            <language>en</language>
+            <name>x_177883_cs_regist_registro_de_atendimento</name>
+            <sequence>9</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-15 17:54:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c04442de374a130010c2d02783990e4b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-15 17:54:43</sys_updated_on>
+            <value>CRM Dynamics</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>entrega</dependent_value>
+            <element>u_activity_specification</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Analise de pedido</label>
+            <language>en</language>
+            <name>x_177883_cs_regist_registro_de_atendimento</name>
+            <sequence>10</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-15 19:01:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8e73dad6378a130010c2d02783990ead</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-15 19:01:12</sys_updated_on>
+            <value>Analise de pedido</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>deliver</dependent_value>
+            <element>u_activity_specification</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Order analysis</label>
+            <language>en</language>
+            <name>x_177883_cs_regist_registro_de_atendimento</name>
+            <sequence>10</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-15 17:54:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cc4442de374a130010c2d02783990e4c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-15 17:54:43</sys_updated_on>
+            <value>Order analysis</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>deliver</dependent_value>
+            <element>u_activity_specification</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Portal Issues</label>
+            <language>en</language>
+            <name>x_177883_cs_regist_registro_de_atendimento</name>
+            <sequence>11</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-15 17:54:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c84442de374a130010c2d02783990e4e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-15 17:54:43</sys_updated_on>
+            <value>Portal Issues</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>entrega</dependent_value>
+            <element>u_activity_specification</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Problemas portal</label>
+            <language>en</language>
+            <name>x_177883_cs_regist_registro_de_atendimento</name>
+            <sequence>11</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-15 19:01:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8a73dad6378a130010c2d02783990eaf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-15 19:01:12</sys_updated_on>
+            <value>Problemas portal</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>entrega</dependent_value>
+            <element>u_activity_specification</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Encaixe</label>
+            <language>en</language>
+            <name>x_177883_cs_regist_registro_de_atendimento</name>
+            <sequence>12</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-15 19:01:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8673dad6378a130010c2d02783990eb1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-15 19:01:12</sys_updated_on>
+            <value>Encaixe</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>deliver</dependent_value>
+            <element>u_activity_specification</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Fitting</label>
+            <language>en</language>
+            <name>x_177883_cs_regist_registro_de_atendimento</name>
+            <sequence>12</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-15 17:54:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c44442de374a130010c2d02783990e50</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-15 17:54:43</sys_updated_on>
+            <value>Fitting</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>deliver</dependent_value>
+            <element>u_activity_specification</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Loss grade</label>
+            <language>en</language>
+            <name>x_177883_cs_regist_registro_de_atendimento</name>
+            <sequence>13</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-15 17:54:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c04442de374a130010c2d02783990e52</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-15 17:54:43</sys_updated_on>
+            <value>Loss grade</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>entrega</dependent_value>
+            <element>u_activity_specification</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Perda grade</label>
+            <language>en</language>
+            <name>x_177883_cs_regist_registro_de_atendimento</name>
+            <sequence>13</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-15 19:01:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8273dad6378a130010c2d02783990eb3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-15 19:01:12</sys_updated_on>
+            <value>Perda grade</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>entrega</dependent_value>
+            <element>u_activity_specification</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Ação Campanha</label>
+            <language>en</language>
+            <name>x_177883_cs_regist_registro_de_atendimento</name>
+            <sequence>14</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-15 19:01:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8e73dad6378a130010c2d02783990eb4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-15 19:01:12</sys_updated_on>
+            <value>Ação Campanha</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>deliver</dependent_value>
+            <element>u_activity_specification</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Action Campaign</label>
+            <language>en</language>
+            <name>x_177883_cs_regist_registro_de_atendimento</name>
+            <sequence>14</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-15 17:54:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cc4442de374a130010c2d02783990e53</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-15 17:54:43</sys_updated_on>
+            <value>Action Campaign</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>entrega</dependent_value>
+            <element>u_activity_specification</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Alerta inserção/Prazo Grade</label>
+            <language>en</language>
+            <name>x_177883_cs_regist_registro_de_atendimento</name>
+            <sequence>15</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-15 19:01:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8a73dad6378a130010c2d02783990eb6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-15 19:01:12</sys_updated_on>
+            <value>Alerta inserção/Prazo Grade</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>deliver</dependent_value>
+            <element>u_activity_specification</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Insert alert / Grid term</label>
+            <language>en</language>
+            <name>x_177883_cs_regist_registro_de_atendimento</name>
+            <sequence>15</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-15 17:54:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c84442de374a130010c2d02783990e55</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-15 17:54:43</sys_updated_on>
+            <value>Insert alert / Grid term</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>entrega</dependent_value>
+            <element>u_activity_specification</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Não inclusão (motivo)</label>
+            <language>en</language>
+            <name>x_177883_cs_regist_registro_de_atendimento</name>
+            <sequence>16</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-15 19:01:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8673dad6378a130010c2d02783990eb8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-15 19:01:12</sys_updated_on>
+            <value>Não inclusão (motivo)</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>deliver</dependent_value>
+            <element>u_activity_specification</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>No inclusion (reason)</label>
+            <language>en</language>
+            <name>x_177883_cs_regist_registro_de_atendimento</name>
+            <sequence>16</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-15 17:54:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c44442de374a130010c2d02783990e57</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-15 17:54:43</sys_updated_on>
+            <value>No inclusion (reason)</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>entrega</dependent_value>
+            <element>u_activity_specification</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Confirmação de Cadastro</label>
+            <language>en</language>
+            <name>x_177883_cs_regist_registro_de_atendimento</name>
+            <sequence>17</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-15 19:01:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8273dad6378a130010c2d02783990eba</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-15 19:01:12</sys_updated_on>
+            <value>Confirmação de Cadastro</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>deliver</dependent_value>
+            <element>u_activity_specification</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Registration Confirmation</label>
+            <language>en</language>
+            <name>x_177883_cs_regist_registro_de_atendimento</name>
+            <sequence>17</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-15 17:54:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c04442de374a130010c2d02783990e59</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-15 17:54:43</sys_updated_on>
+            <value>Registration Confirmation</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_activity_specification</element>
+            <name>x_177883_cs_regist_registro_de_atendimento</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-15 17:54:43</sys_created_on>
+            <sys_id>4c440a9e374a130010c2d02783990eaf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_activity_specification</sys_name>
+            <sys_package display_value="CS Registro de Atendimento" source="x_177883_cs_regist">e38c855237c6130010c2d02783990ed7</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="CS Registro de Atendimento">e38c855237c6130010c2d02783990ed7</sys_scope>
+            <sys_update_name>sys_choice_x_177883_cs_regist_registro_de_atendimento_u_activity_specification</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-15 17:54:43</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>
